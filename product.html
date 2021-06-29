@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Home</title>
+    <title>Product</title>
   </head>
   <style>
     .navbar {
@@ -48,9 +48,13 @@
       width: 50%;
       margin: auto;
     }
+    .border_blue {
+      border-bottom: 3px solid #3ba5f2;
+      margin: 20px 0;
+    }
     /* Jumbotron */
     .jumbotron {
-      background-image: url("img/TOWER.jpg");
+      background-image: url("img/tower_night\ 1.jpg");
       background-size: cover;
       height: 90vh;
       margin-top: -5rem;
@@ -87,29 +91,24 @@
       font-weight: 200;
     }
 
-    /* Workingspace */
-    .workingspace {
-      border-bottom: 5px solid #0b63dc;
-      margin-top: -4rem;
+    /* product */
+
+    .product {
+      margin-top: -3rem;
     }
 
-    .workingspace h3 {
-      text-transform: uppercase;
-      font-size: 50px;
-      font-weight: 200;
-      margin-top: 30px;
-      color: #1c2c5d;
+    .judul_section {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 32px;
     }
 
-    .workingspace h3 span {
-      font-weight: 500;
-    }
-
-    .workingspace p {
-      font-size: 22px;
+    .product p {
+      font-size: 18px;
       font-weight: 500;
       margin: 25px 0;
-      color: #acacac;
+      color: #000000;
+      line-height: 21px;
     }
 
     /* latest news */
@@ -192,10 +191,10 @@
         >
           <ul class="navbar-nav text-center">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">HOME</a>
+              <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="product.html">SERCIVE</a>
+              <a class="nav-link active" href="product.html">SERCIVE</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">CONTACT</a>
@@ -229,50 +228,34 @@
     </svg>
 
     <div class="container">
-      <div class="row workingspace">
-        <div class="col-lg-8">
-          <h3><span>About Us</span></h3>
+      <div class="row product">
+        <div class="col-12 text-center mb-4">
+          <div class="judul_section">OUR PRODUCT</div>
+        </div>
+        <div class="col-lg-7">
+          <div class="judul_section">Tactical Respirator</div>
           <p>
-            PT. Rejeki Cipta Agung is a limited liability company engaged in the
-            procurement of goods. Providing the best goods and services desired
-            by the client
+            The Avon CS-PAPR™ is the newest generation of CBRN Powered Air
+            Purifying Respirator (PAPR) designed for use in Combination Unit
+            Respirators.
           </p>
-          <button href="" class="btn btn-primary tombol">View More</button>
+          <a href="" class="btn btn-primary tombol">View More</a>
         </div>
-        <div class="col-lg-4">
-          <img class="img-fluid" src="img/gedung2.jpg" alt="" />
+        <div class="col-lg-5 text-center mt-4">
+          <img class="img-fluid" src="img/product (1).png" alt="" />
         </div>
-      </div>
-
-      <div class="row latestnews">
-        <div class="col-lg-12 mt-4 text-center">
-          <h3><span>Latest News</span></h3>
+        <div class="col-12 border_blue"></div>
+        <div class="col-lg-5 text-center">
+          <img class="img-fluid" src="img/product (2).png" alt="" />
         </div>
-        <div class="row mt-4 d-flex justify-content-center">
-          <div class="col-lg-3 text-center mb-4">
-            <img class="w-100" src="img/pelatihan.jpeg" alt="" />
-          </div>
-          <div class="col-lg-8">
-            <p class="title">pelatihan gas dan masker tactical respirator</p>
-            <p class="date">Jakarta, 3 - 5 Desember 2020</p>
-            <p class="text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolor
-              modi dignissimos voluptas possimus, ullam eos aliquam pariatur
-              repellat quod.
-            </p>
-          </div>
-          <div class="col-lg-3 text-center">
-            <img class="w-100" src="img/pelatihan.jpeg" alt="" />
-          </div>
-          <div class="col-lg-8">
-            <p class="title">pelatihan gas dan masker tactical respirator</p>
-            <p class="date">Jakarta, 3 - 5 Desember 2020</p>
-            <p class="text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolor
-              modi dignissimos voluptas possimus, ullam eos aliquam pariatur
-              repellat quod.
-            </p>
-          </div>
+        <div class="col-lg-7">
+          <div class="judul_section">Tactical Respirator</div>
+          <p>
+            High-strength, forged lightweight design blades Further optimised
+            ULTIMATE blade design for hardest applications. Adjustable fibre-
+            reinforced handle for perfect handling
+          </p>
+          <a href="" class="btn btn-primary tombol">View More</a>
         </div>
       </div>
     </div>

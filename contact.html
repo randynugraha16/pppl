@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Home</title>
+    <title>Product</title>
   </head>
   <style>
     .navbar {
@@ -48,6 +48,10 @@
       width: 50%;
       margin: auto;
     }
+    .border_blue {
+      border-bottom: 3px solid #3ba5f2;
+      margin: 20px 0;
+    }
     /* Jumbotron */
     .jumbotron {
       background-image: url("img/TOWER.jpg");
@@ -58,90 +62,12 @@
     .segitiga {
       margin-top: -15rem;
     }
-    /* Info-Panel */
-    .info-panel {
-      box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
-      border-radius: 12px;
-      background-color: white;
-      margin-top: -90px;
-      padding: 30px;
-    }
 
-    .info-panel img {
-      width: 80px;
-      height: 80px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-
-    .info-panel h4 {
-      font-size: 16px;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-top: 2px;
-    }
-
-    .info-panel p {
-      font-size: 14px;
-      color: #acacac;
-      font-weight: 200;
-    }
-
-    /* Workingspace */
-    .workingspace {
-      border-bottom: 5px solid #0b63dc;
-      margin-top: -4rem;
-    }
-
-    .workingspace h3 {
-      text-transform: uppercase;
-      font-size: 50px;
-      font-weight: 200;
-      margin-top: 30px;
-      color: #1c2c5d;
-    }
-
-    .workingspace h3 span {
-      font-weight: 500;
-    }
-
-    .workingspace p {
-      font-size: 22px;
-      font-weight: 500;
-      margin: 25px 0;
-      color: #acacac;
-    }
-
-    /* latest news */
-    .latestnews {
-      margin-bottom: 10rem;
-    }
-
-    .latestnews h3 {
-      text-transform: uppercase;
-      font-size: 50px;
-      font-weight: 500;
-      margin-top: 30px;
-      color: #1c2c5d;
-    }
-
-    .title {
-      text-transform: uppercase;
-      font-weight: 200;
-      font-size: 22px;
-      color: #5f5f5f;
-    }
-
-    .date {
-      font-weight: 200;
-      font-size: 18px;
-      margin-top: -1rem;
-    }
-
-    /* Utility */
-    .tombol {
-      text-transform: uppercase;
-      border-radius: 40px;
+    .contact {
+      border-radius: 25px;
+      background-color: #3ba5f2;
+      margin-bottom: 10px;
+      text-align: center;
     }
 
     /* footer */
@@ -162,6 +88,17 @@
     .footer p {
       color: #acacac;
       font-weight: 200;
+    }
+    .contact .img {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .border-bottom {
+      border-bottom: 4px solid #000000 !important;
+      width: 50%;
+      margin: auto;
+      margin-bottom: 10px;
     }
   </style>
   <body>
@@ -192,13 +129,13 @@
         >
           <ul class="navbar-nav text-center">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">HOME</a>
+              <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="product.html">SERCIVE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link active" href="contact.html">CONTACT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">ABOUT</a>
@@ -229,49 +166,47 @@
     </svg>
 
     <div class="container">
-      <div class="row workingspace">
-        <div class="col-lg-8">
-          <h3><span>About Us</span></h3>
-          <p>
-            PT. Rejeki Cipta Agung is a limited liability company engaged in the
-            procurement of goods. Providing the best goods and services desired
-            by the client
-          </p>
-          <button href="" class="btn btn-primary tombol">View More</button>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-fluid" src="img/gedung2.jpg" alt="" />
-        </div>
-      </div>
-
-      <div class="row latestnews">
-        <div class="col-lg-12 mt-4 text-center">
-          <h3><span>Latest News</span></h3>
-        </div>
-        <div class="row mt-4 d-flex justify-content-center">
-          <div class="col-lg-3 text-center mb-4">
-            <img class="w-100" src="img/pelatihan.jpeg" alt="" />
+      <div class="row justify-content-center">
+        <div class="col-10 contact">
+          <div class="col-12 py-5">
+            <div class="row">
+              <div class="col-4 text-end img">
+                <img src="img/Tower.png" alt="" />
+              </div>
+              <div class="col-4 text-center">
+                <h5 class="border-bottom">ADDRESS</h5>
+                <h6>
+                  JL. MARGONDA RAYA RT 04/07 <br />
+                  Depok - Jawa Barat
+                </h6>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-8">
-            <p class="title">pelatihan gas dan masker tactical respirator</p>
-            <p class="date">Jakarta, 3 - 5 Desember 2020</p>
-            <p class="text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolor
-              modi dignissimos voluptas possimus, ullam eos aliquam pariatur
-              repellat quod.
-            </p>
+        </div>
+        <div class="col-10 contact bg-warning">
+          <div class="col-12 py-5">
+            <div class="row">
+              <div class="col-4 text-end img">
+                <img src="img/Telp.png" alt="" />
+              </div>
+              <div class="col-4 text-center">
+                <h5 class="border-bottom">CONTACT</h5>
+                <h6>(+62)813 20329978</h6>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-3 text-center">
-            <img class="w-100" src="img/pelatihan.jpeg" alt="" />
-          </div>
-          <div class="col-lg-8">
-            <p class="title">pelatihan gas dan masker tactical respirator</p>
-            <p class="date">Jakarta, 3 - 5 Desember 2020</p>
-            <p class="text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolor
-              modi dignissimos voluptas possimus, ullam eos aliquam pariatur
-              repellat quod.
-            </p>
+        </div>
+        <div class="col-10 contact">
+          <div class="col-12 py-5">
+            <div class="row">
+              <div class="col-4 text-end img">
+                <img src="img/Group.png" alt="" />
+              </div>
+              <div class="col-4 text-center">
+                <h5 class="border-bottom">EMAIL</h5>
+                <h6>Rejekiciptaagung@gmail.com</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
